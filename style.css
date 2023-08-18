@@ -14,9 +14,12 @@ canvas {
 }
 
 #loveQuestion {
+  margin: auto;
   position: absolute;
-  left: 220px;
-  top: 230px;
+  top: 25vh; 
+  left: 25vw;
+  bottom: 0; 
+  right: 0;
   font-size: 80px;
 }
 
@@ -31,16 +34,16 @@ input {
 
 #btnYes {
   position: absolute;
-  left: 480px;
-  top: 450px;
+  left: 35vw;
+  top: 40vh;
   background-color: #7bd806;
   cursor: pointer;
 }
 
 #btnNo {
   position: absolute;
-  left: 860px;
-  top: 450px;
+  left: 55vw;
+  top: 40vh;
   background-color: #f4511e;
   transition: 0.3s;
 }
